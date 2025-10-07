@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Translator to JS Fuck</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="input-section">
+        <h2>Input</h2>
+        <label for="text-input">Write your text here:</label>
+        <textarea id="text-input"></textarea>
+        <button>Translate</button>
+        <details>
+            <summary>Available Characters</summary>
+            <p id="available-characters"></p>
+        </details>
+    </section>
+    <section class="output-section">
+        <h2>Output</h2>
+        <label for="output">Output:</label>
+        <textarea id="output" readonly></textarea>
+        <button data-pressed="Copied!">Copy</button>
+    </section>
+</body>
+</html>
